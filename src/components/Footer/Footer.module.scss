@@ -1,0 +1,18 @@
+.footer{ 
+    background-color: rgb(235, 235, 235);
+    padding: 0 30px;
+    position: fixed;
+    bottom: 0;
+	height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 740px;
+    button{
+        border: none;
+        color: red;
+        font-weight: 600;
+    }
+}

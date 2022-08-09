@@ -1,0 +1,22 @@
+.panel{
+    margin-top: 10px;
+    .grid{
+       
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(24, 1fr);
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            button{
+                height: 40px;
+                border: 1px solid rgb(235, 235, 235);
+                &:hover{
+                    background-color: rgb(227, 221, 255);
+                }
+                &:focus{
+                    background-color: rgb(151, 128, 255);
+                }
+            }
+
+    }
+}
